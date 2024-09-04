@@ -22,7 +22,8 @@ export function CardProgress({cardName,progressName,progressValue}): JSX.Element
             </CardContent>
             <CardContent>
                 <Gap height={10} />
-                <Progress value={progressValue} aria-label="25% increase" style={{ backgroundColor: '#C4C4C4' }} />
+                <Progress value={progressValue} aria-label="25% increase" 
+                style={{ backgroundColor: '#C4C4C4' }} />
                 <div className="flex items-center" style={{ justifyContent: 'space-between' }}>
                     <p>{progressValue} {progressName}</p>
                     <p>/100</p>

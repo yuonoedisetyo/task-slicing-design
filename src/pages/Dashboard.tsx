@@ -1,3 +1,4 @@
+import { Footer } from "@/components/screen/Footer";
 import { Header } from "@/components/screen/Header";
 import { MainContent } from "@/components/screen/MainContent";
 import { SideBar } from "@/components/screen/SideBar";
@@ -9,6 +10,7 @@ export function Dashboard(): JSX.Element {
       <div className="flex flex-col">
         <Header/>
         <MainContent/>
+        <Footer/>
       </div>
     </div>
   );
