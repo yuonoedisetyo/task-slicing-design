@@ -1,9 +1,9 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
-import { Progress } from "@/components/ui/progress"
-import { MessageSquareText, ArrowRight } from "lucide-react";
+import { Progress } from "@/components/ui/progress";
+import { ArrowRight, MessageSquareText } from "lucide-react";
 import { Gap } from "../atoms/Gap";
+import { Card, CardContent, CardHeader } from "../ui/card";
 
-export function CardProgress({cardName,progressName,progressValue}): JSX.Element {
+export function CardProgress({cardName='',progressName='',progressValue=0}): JSX.Element {
     return (
         <Card x-chunk="dashboard-05-chunk-1">
             <CardHeader className="pb-2">

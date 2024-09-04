@@ -1,12 +1,10 @@
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../ui/card";
-import { Progress } from "@/components/ui/progress"
-import { MessageSquareText, ArrowRight, ChevronRight,GripVertical } from "lucide-react";
-import { Gap } from "../atoms/Gap";
-import { CardProgress } from "./CardProgress";
 import { IconAdd, IconPhone, IlustrasionProfil2, IlustrasionProfil3 } from "@/assets/index";
+import { ChevronRight, GripVertical } from "lucide-react";
+import { Gap } from "../atoms/Gap";
 import { Badge } from "../ui/badge";
+import { Card, CardContent, CardHeader } from "../ui/card";
 import { Checkbox } from "../ui/checkbox";
+import { CardProgress } from "./CardProgress";
 
 export function MainContent(): JSX.Element {
   return (
@@ -16,10 +14,10 @@ export function MainContent(): JSX.Element {
           <h1 style={{ textAlign: 'left', fontSize: 30, textDecoration: 'underline' }} className="text-lg font-semibold md:text-2xl">Here’s What All You Need</h1>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
-          <CardProgress cardName="MESSAGE BANDWIDTH" progressName="Messages" progressValue="20" />
-          <CardProgress cardName="BROADCAST MESSAGE" progressName="Messages" progressValue="20" />
-          <CardProgress cardName="CONVERSATION" progressName="Conversations" progressValue="20" />
-          <CardProgress cardName="OUTBOND MESSAGE" progressName="Persent" progressValue="35" />
+          <CardProgress cardName="MESSAGE BANDWIDTH" progressName="Messages" progressValue={20} />
+          <CardProgress cardName="BROADCAST MESSAGE" progressName="Messages" progressValue={20} />
+          <CardProgress cardName="CONVERSATION" progressName="Conversations" progressValue={20} />
+          <CardProgress cardName="OUTBOND MESSAGE" progressName="Persent" progressValue={35} />
         </div>
       </div>
       <div

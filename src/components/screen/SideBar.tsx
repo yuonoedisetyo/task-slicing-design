@@ -1,9 +1,4 @@
-import { LinkSideBar as Link } from "../atoms/LinkSideBar";
-import { ChartColumn, ChartSpline, X } from 'lucide-react';
-import { Badge } from "../ui/badge";
-import '../../App.css'
-import { Card } from "../ui/card";
-import { Gap } from "../atoms/Gap";
+import '../../App.css';
 import { SideBarContent } from "./SideBarContent";
 import { SideBarHead } from "./SideBarHead";
 

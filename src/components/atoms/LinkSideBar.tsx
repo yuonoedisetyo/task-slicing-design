@@ -9,7 +9,7 @@ import {
  } from "lucide-react";
 
   
-  export function LinkSideBar({children,semibold,active,icon=''}): JSX.Element {
+  export function LinkSideBar({children='',semibold=false,active=false,icon=''}): JSX.Element {
       let className="flex items-center gap-3 rounded-lg px-3 text-muted-foreground transition-all hover:text-primary"
 
       if(semibold){

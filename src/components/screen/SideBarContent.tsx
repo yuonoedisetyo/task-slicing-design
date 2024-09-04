@@ -1,9 +1,8 @@
-import { LinkSideBar as Link } from "../atoms/LinkSideBar";
-import { ChartColumn, ChartSpline, X } from 'lucide-react';
-import { Badge } from "../ui/badge";
-import '../../App.css'
-import { Card } from "../ui/card";
+import { X } from 'lucide-react';
+import '../../App.css';
 import { Gap } from "../atoms/Gap";
+import { LinkSideBar as Link } from "../atoms/LinkSideBar";
+import { Card } from "../ui/card";
 
 export function SideBarContent(): JSX.Element {
   return (
@@ -24,14 +23,14 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>DASHBOARD</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="chart-column"
                 active
               >
-                <p>Overview</p>
+               Overview
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="chart-spline"
               >
                 Analytics
@@ -41,13 +40,13 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>DEVICES</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="monitor-smartphone"
               >
                 Attached Devices
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="users"
               >
                 Customer Devices
@@ -57,31 +56,31 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>MESSAGING</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="message-square-text"
               >
                 Templating
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="message-square"
               >
                 Send Message
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="reply"
               >
                 Auto Reply
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="rss"
               >
                 Broadcast
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="calendar-check2"
               >
                 Scheduler
@@ -91,13 +90,13 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>MEMBER</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="id-card"
               >
                 Member Plan
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="notepad-text"
               >
                 Invoices
@@ -107,13 +106,13 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>PROFILE</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="user"
               >
                 Profile
               </Link>
               <Link
-                href="#"
+                // href="#"
                 icon="settings"
               >
                 Settings
@@ -123,7 +122,7 @@ export function SideBarContent(): JSX.Element {
               <label style={{ fontSize: 10, fontWeight: 500, color: '#3A3A3A' }}>API DOCUMENTATION</label>
               <Gap height={3} />
               <Link
-                href="#"
+                // href="#"
                 icon="file-code2"
               >
                 API Documentation
